@@ -71,7 +71,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 /**
  * Created by setyc on 12.02.2016.
  */
-@Mod(modid = ChickensMod.MODID, name = ChickensMod.NAME, version = ChickensMod.VERSION, acceptedMinecraftVersions = "[1.12, 1.12.2]", dependencies = "required-after:forge@[14.21.1.2387,);")
+@Mod(modid = ChickensMod.MODID, name = ChickensMod.NAME, version = ChickensMod.VERSION, useMetadata = true, acceptedMinecraftVersions = "[1.12, 1.12.2]", dependencies = "required-after:forge@[14.21.1.2387,);")
 @EventBusSubscriber
 public class ChickensMod {
 	public static final String MODID = "chickens";
